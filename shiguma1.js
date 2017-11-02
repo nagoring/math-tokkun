@@ -14,7 +14,6 @@ function shiguma(offset, limit, func){
 
 var result = shiguma(1, 9, (func, sum, limit, offset, plus)=>{
     sum += plus;
-    console.log("limit="+limit + ",sum="+sum);
     plus++;
     limit--;
     if(offset <= limit){

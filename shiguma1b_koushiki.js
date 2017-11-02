@@ -14,7 +14,4 @@ function calc(n){
 }
 
 var result = shiguma(1, 9, calc);
-
-
-
 console.log(result);

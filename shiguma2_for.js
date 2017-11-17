@@ -5,7 +5,6 @@
  
 'use strict'
 
-
 function shiguma(offset, length, func){
     let result = 0;
     for(let i=offset;i<=length;i++){
